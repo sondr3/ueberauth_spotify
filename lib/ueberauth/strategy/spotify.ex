@@ -5,7 +5,7 @@ defmodule Ueberauth.Strategy.Spotify do
 
   use Ueberauth.Strategy,
     uid_field: :uid,
-    default_scope: "user-read_email",
+    default_scope: "user-read-email",
     oauth2_module: Ueberauth.Strategy.Spotify.OAuth
 
   alias Ueberauth.Strategy.Spotify.OAuth

@@ -10,7 +10,7 @@
 
    ```elixir
    def deps do
-     [{:ueberauth_spotify, git: "https://github.com/sondr3/ueberauth-spotify", tag: "v0.1.0"}]
+     [{:ueberauth_spotify, git: "https://github.com/sondr3/ueberauth_spotify", tag: "v0.1.0"}]
    end
    ```
 
